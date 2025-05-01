@@ -39,7 +39,7 @@ function UploadAd() {
         </div>
       </div>
       <input className="form-control mb-3" type="file" />
-      <button className="btn btn-primary" onClick={() => navigate('/MakePayment')}>Continue to Payment</button>
+      <button className="btn btn-primary" onClick={() => navigate('/payments')}>Continue to Payment</button>
     </div>
   );
 }
